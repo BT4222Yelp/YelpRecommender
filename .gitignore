@@ -3,3 +3,8 @@ yelp_academic_dataset_checkin.json
 yelp_academic_dataset_review.json
 yelp_academic_dataset_tip.json
 yelp_academic_dataset_user.json
+
+demographics.csv
+demographics_merged.csv
+unemployment.csv
+zip_fip.csv
