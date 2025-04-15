@@ -51,8 +51,9 @@ Used to supplement missing or null values in Yelp data and to provide more granu
 | Notebook | Description | Inputs | Outputs |
 |----------|-------------|--------|---------|
 | `10_CombinedPipeline.ipynb` | Integrates all models | All outputs from Step 2 | Final top-K recommendations |
-
+| `12_DiverseSelection.ipynb` | Recommend restaurants that are least similar to other recommended restaurants | `restaurant_w_train_ave_stars.csv` | `ds_matrix.npz` |
 ---
+*There is no code #11
 
 ## Notes
 
