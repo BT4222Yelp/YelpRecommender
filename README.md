@@ -1,7 +1,5 @@
 # Yelp Recommender System
 
-A hybrid recommender system built on the Yelp dataset to suggest personalized restaurants using collaborative filtering, content-based filtering, and user-item feature modeling.
-
 ---
 
 ## Raw Datasets
@@ -18,7 +16,7 @@ Retrieved from the [Yelp Open Dataset](https://business.yelp.com/data/resources/
 - [ZIP to FIPS Crosswalk](https://www.kaggle.com/datasets/danofer/zipcodes-county-fips-crosswalk): Used to join datasets via common `postal_code`
 
 ### Google Maps API
-Used to supplement missing or null values in Yelp data and to enrich product information.  
+Used to supplement missing or null values in Yelp data and to provide more granular product information.  
 - `BT4222_Project_Google_Maps_Api.ipynb`
 
 ---
@@ -60,6 +58,5 @@ Used to supplement missing or null values in Yelp data and to enrich product inf
 
 - Most files are structured in Jupyter Notebooks. Only 05_PopularityBasedRecommendation.ipynb uses Colab. 
 - Outputs are stored in `.csv`, `.npz`, `.pkl`, and `.pth` formats for cross-pipeline integration.
-- Google Drive links are provided for large file sharing.
 
 ---
