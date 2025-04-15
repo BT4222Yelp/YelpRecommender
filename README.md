@@ -18,7 +18,7 @@ Retrieved from the [Yelp Open Dataset](https://business.yelp.com/data/resources/
 ### Google Maps API
 Used to supplement missing or null values in Yelp data and to provide more granular product information.  
 - `BT4222_Project_Google_Maps_Api.ipynb`
-
+- `BT4222_Project_Join_Google_Features.ipynb`
 ---
 
 ## Process Overview
@@ -42,7 +42,7 @@ Used to supplement missing or null values in Yelp data and to provide more granu
 | `06_ContentBasedRecommendation.ipynb` | TF-IDF and cosine similarity between restaurants | `restaurants_final.csv`, `review_final.csv` | `train_df.csv`, `test_df.csv`, `cb_matrix.npz`, `item_df.csv` |
 | `07_UserBasedCollaborativeFiltering.ipynb` | Cosine similarity on user-item interactions | `review_final.csv`, `PA_all_restaurant_user_with_loc.csv` | `users_df.csv`, `cf_matrix.npz`, user/item encoders |
 | `08_MFModelFeatures.ipynb` | Matrix Factorization with user/item features | All processed datasets | `user/item_features_tensor_pt`, encoders, [`MF_model.pth`](https://drive.google.com/file/d/1rPxT_M8WCJyY5U5qsCUB-iY9dA-uvogq/view?usp=drive_link) |
-| `09_NeuralCollaborativeFiltering.ipynb` | Deep learning model | All processed datasets | `item_ncf_encoder.pkl`, `user_ncf_encoder`, `NCF_model.pth` |
+| `09_NeuralCollaborativeFiltering.ipynb` | Deep learning model | All processed datasets | [`user_restaurant_review.csv`](https://drive.google.com/file/d/1Qtld6cJ25v3np0Mk1fFP88Eu91wANQ4r/view?usp=drive_link), `item_ncf_encoder.pkl`, `NCF_model.pth` |
 
 ---
 
@@ -50,10 +50,9 @@ Used to supplement missing or null values in Yelp data and to provide more granu
 
 | Notebook | Description | Inputs | Outputs |
 |----------|-------------|--------|---------|
-| `10_CombinedPipeline.ipynb` | Integrates all models | All outputs from Step 2 | Final top-K recommendations |
-| `12_DiverseSelection.ipynb` | Recommend restaurants that are least similar to other recommended restaurants | `restaurant_w_train_ave_stars.csv` | `ds_matrix.npz` |
+| `10_DiverseSelection.ipynb` | Preparatory code for diverse selection method used in Combined Pipeline | `restaurant_w_train_ave_stars.csv` (from 05_PopularityBasedRecommendation.ipynb) | `ds_matrix.npz` |
+| `11_CombinedPipeline.ipynb` | Integrates all models | All outputs from Step 2 | Final top-K recommendations |
 ---
-*There is no code #11
 
 ## Notes
 
