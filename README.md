@@ -11,9 +11,9 @@ Retrieved from the [Yelp Open Dataset](https://business.yelp.com/data/resources/
 - `yelp_academic_dataset_user.json`
 
 ### U.S. Census Data (for location enrichment)
-- [US Zip Codes Demographics](https://doi.org/10.34740/KAGGLE/DSV/7210848): Proximity to highways & income by postal code  
-- [Unemployment & Median Household Income](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data): Urban-rural classification & unemployment by FIPS Code  
-- [ZIP to FIPS Crosswalk](https://www.kaggle.com/datasets/danofer/zipcodes-county-fips-crosswalk): Used to join datasets via common `postal_code`
+- [US Zip Codes Demographics](https://drive.google.com/file/d/1mmIf-vNDYJzzKYn8nmhQNu7kIVpUAoVw/view?usp=drive_link): Proximity to highways & income by postal code  
+- [Unemployment & Median Household Income](https://drive.google.com/file/d/1RZzEXlu0RFWjsUaa6WIOsxOC3aaLYfO7/view?usp=drive_link): Urban-rural classification & unemployment by FIPS Code  
+- [ZIP to FIPS Crosswalk](https://drive.google.com/file/d/1uhNr-SmK9qkIkPDsPva_1DI-IDEHoeX9/view?usp=drive_link): Used to join datasets via common `postal_code`
 
 ### Google Maps API
 Used to supplement missing or null values in Yelp data and to provide more granular product information.  
