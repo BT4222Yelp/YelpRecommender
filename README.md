@@ -57,7 +57,7 @@ Used to supplement missing or null values in Yelp data and to provide more granu
 
 ## Notes
 
-- Most files are structured in Jupyter Notebooks. Only 05_PopularityBasedRecommendation.ipynb uses Colab. 
+- Most files are structured in Jupyter Notebooks. Only 05_PopularityBasedRecommendation.ipynb and 09_NeuralCollaborativeFiltering.ipynb uses Colab. 
 - Outputs are stored in `.csv`, `.npz`, `.pkl`, and `.pth` formats for cross-pipeline integration.
 
 ---
