@@ -42,7 +42,7 @@ Used to supplement missing or null values in Yelp data and to provide more granu
 | `06_ContentBasedRecommendation.ipynb` | TF-IDF and cosine similarity between restaurants | `restaurants_final.csv`, `review_final.csv` | `train_df.csv`, `test_df.csv`, `cb_matrix.npz`, `item_df.csv` |
 | `07_UserBasedCollaborativeFiltering.ipynb` | Cosine similarity on user-item interactions | `review_final.csv`, `PA_all_restaurant_user_with_loc.csv` | `users_df.csv`, `cf_matrix.npz`, user/item encoders |
 | `08_MFModelFeatures.ipynb` | Matrix Factorization with user/item features | All processed datasets | `user/item_features_tensor_pt`, encoders, [`MF_model.pth`](https://drive.google.com/file/d/1rPxT_M8WCJyY5U5qsCUB-iY9dA-uvogq/view?usp=drive_link) |
-| `09_NeuralCollaborativeFiltering.ipynb` | Deep learning model | All processed datasets | `item_ncf_encoder.pkl`, `NCF_model.pth` |
+| `09_NeuralCollaborativeFiltering.ipynb` | Deep learning model | All processed datasets | [`user_restaurant_review.csv`](https://drive.google.com/file/d/1Qtld6cJ25v3np0Mk1fFP88Eu91wANQ4r/view?usp=drive_link), `item_ncf_encoder.pkl`, `NCF_model.pth` |
 
 ---
 
