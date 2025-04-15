@@ -27,7 +27,7 @@ Used to supplement missing or null values in Yelp data and to provide more granu
 
 | Notebook | Inputs | Outputs |
 |----------|--------|---------|
-| `01_BusinessDataPreparation.ipynb` | Yelp business JSON, Census data | [`restaurants_final.csv`](https://drive.google.com/drive/folders/1U8Q1G9BXYDm1I5O_vzt9lNVHrJMrQb1C?usp=drive_link) |
+| `01_BusinessDataPreparation.ipynb` | Yelp business JSON, [Census data](https://drive.google.com/file/d/1Qz-8x8soS8POCzi2koMYYWFp99yzJXp7/view?usp=drive_link), Google Maps Data | [`restaurants_final.csv`](https://drive.google.com/drive/folders/1U8Q1G9BXYDm1I5O_vzt9lNVHrJMrQb1C?usp=drive_link) |
 | `02_ReviewDataPreparation.ipynb` | Yelp review + user JSON | [`review_final.csv`](https://drive.google.com/drive/folders/1U8Q1G9BXYDm1I5O_vzt9lNVHrJMrQb1C?usp=drive_link) |
 | `03_UserDataset.ipynb` | Yelp user JSON | [`PA_all_restaurant_user_with_loc.csv`](https://drive.google.com/drive/folders/1U8Q1G9BXYDm1I5O_vzt9lNVHrJMrQb1C?usp=drive_link) |
 | `04_UserClustering.ipynb` | Yelp user + review JSON | `user_cluster.csv` |
