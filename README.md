@@ -18,7 +18,7 @@ Retrieved from the [Yelp Open Dataset](https://business.yelp.com/data/resources/
 ### Google Maps API
 Used to supplement missing or null values in Yelp data and to provide more granular product information.  
 - `BT4222_Project_Google_Maps_Api.ipynb`
-
+- `BT4222_Project_Join_Google_Features.ipynb`
 ---
 
 ## Process Overview
@@ -50,10 +50,9 @@ Used to supplement missing or null values in Yelp data and to provide more granu
 
 | Notebook | Description | Inputs | Outputs |
 |----------|-------------|--------|---------|
-| `10_CombinedPipeline.ipynb` | Integrates all models | All outputs from Step 2 | Final top-K recommendations |
-| `12_DiverseSelection.ipynb` | Recommend restaurants that are least similar to other recommended restaurants | `restaurant_w_train_ave_stars.csv` | `ds_matrix.npz` |
+| `10_DiverseSelection.ipynb` | Preparatory code for diverse selection method used in Combined Pipeline | `restaurant_w_train_ave_stars.csv` (from 05_PopularityBasedRecommendation.ipynb) | `ds_matrix.npz` |
+| `11_CombinedPipeline.ipynb` | Integrates all models | All outputs from Step 2 | Final top-K recommendations |
 ---
-*There is no code #11
 
 ## Notes
 
